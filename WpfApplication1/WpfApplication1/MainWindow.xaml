@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="34" Margin="41,205,0,0" VerticalAlignment="Top" Width="126"/>
-        <Calendar HorizontalAlignment="Left" Height="197" Margin="19,0,0,99" VerticalAlignment="Bottom" Width="235" RenderTransformOrigin="0.5,0.5">
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="34" Margin="34,191,0,0" VerticalAlignment="Top" Width="126" Click="button_Click"/>
+        <Calendar HorizontalAlignment="Left" Height="197" Margin="7,0,0,116" VerticalAlignment="Bottom" Width="235" RenderTransformOrigin="0.5,0.5">
             <Calendar.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
